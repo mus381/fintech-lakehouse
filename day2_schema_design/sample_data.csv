@@ -1,0 +1,11 @@
+txn_id,user_id,amount,currency,status,created_at
+txn_001,101,50.00,USD,completed,1732869300
+txn_002,102,75.50,USD,completed,1732869390
+txn_003,101,120.00,EUR,pending,1732869525
+txn_004,103,200.00,USD,completed,1732869612
+txn_005,102,35.25,GBP,failed,1732869720
+txn_006,104,500.00,USD,completed,1732869930
+txn_007,101,80.00,USD,completed,1732870035
+txn_008,103,150.00,EUR,pending,1732870200
+txn_009,105,60.00,USD,completed,1732870365
+txn_010,104,90.00,GBP,completed,1732870500
