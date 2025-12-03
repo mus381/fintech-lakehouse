@@ -1,0 +1,17 @@
+txn_id,user_id,amount,currency,status,created_at
+txn_001,101,50.00,USD,completed,1732869390
+txn_002,102,75.50,USD,completed,1732869390
+txn_003,103,120.00,EUR,pending,1732869400
+txn_004,101,-10.00,USD,posted,1732869410
+txn_005,102,50.00,BTC,completed,1732869420
+txn_006,103,100.00,USD,completed,9999999999
+txn_007,101,30.00,EUR,unknown,1732869430
+txn_008,102,60.00,USD,completed,1732869440
+txn_008,102,65.00,USD,completed,1732869450
+txn_009,999,80.00,USD,completed,1732869460
+txn_010,101,25000.00,USD,completed,1732869470
+txn_123,101,100.00,USD,completed,1732869500
+txn_123,101,105.00,USD,completed,1732869510
+txn_124,102,50.00,USD,completed,1732869520
+txn_125,103,75.00,USD,completed,1732869530
+txn_125,103,75.00,USD,completed,1732869540
