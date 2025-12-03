@@ -34,3 +34,20 @@ python3 day2_txn.py
 - Prevents $50M revenue gaps from type mismatches
 - Enables 3am incident debugging with root-cause logs
 - Supports audit compliance via provable transaction ordering
+
+
+# Day 3 data_quality
+## Day 3 – Data Quality Checks
+
+We implemented a series of data quality rules to validate transactions:
+
+- Positive amounts only
+- Allowed currency codes
+- No future-dated transactions
+- Valid status values
+- Unique transaction IDs
+- User exists in system
+- Amount below $10K to monitor large transactions
+
+Running `python day3_checks.py` will display failing transactions and demonstrate why these checks are critical for preventing revenue loss, fraud, and compliance issues.
+

@@ -80,3 +80,10 @@ Define 6 data quality rules (positive amount, valid currency set, no future date
 3. How long should idempotency keys be cached? (Redis TTL? Postgres partitioning?)
 
 
+# Day 3 data quality
+### Day 3 Summary
+
+- Built 6 core data quality rules + a threshold rule for high-value transactions and integrated them into `day3_checks.py`.
+- Encountered failures: negative amounts, invalid currency, future dates, unknown status, duplicates, non-existent users, and high-value transactions.
+- Learned the importance of tombstones, rule ordering, and auditing to prevent revenue loss and support compliance.
+
